@@ -1,0 +1,130 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+​ body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+    /* min-width: 320px; */
+}
+
+​ input, textarea, select {
+    outline: none;
+    font-family: Arial;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+​ input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+​ a {
+    text-decoration: underline;
+    outline: none;
+}
+
+​ a:hover {
+    text-decoration: none;
+}
+
+​ h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.title {
+    width: 530px;
+    height: 170px;
+    margin: 40px auto 100px;
+}
+
+.title .who {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #898f99;
+    letter-spacing: 5px;
+    margin: 0 0 22px;
+}
+
+.title .greeting {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #0ec8cb;
+    margin: 0 0 30px;
+}
+
+.title .slogan {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #999999;
+}
+
+.mainer {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0px 15px;
+    box-sizing: border-box;
+}
+
+.block-features .wrapper {
+    display: flex;
+    margin: 0 -15px;
+}
+
+.block-features .cell {
+    flex-grow: 1;
+    padding: 56px 20px;
+}
+
+.block-features .cell:hover {
+    background-color: #0ec8cb;
+    color: white;
+}
+
+.block-features .cell *:hover {
+    color: white;
+}
+
+.block-features .icon {
+    color: black;
+    font-size: 65px;
+    text-align: center;
+    margin: 0 auto 35px;
+    height: 65px;
+    padding: 0;
+}
+
+.block-features .caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+.block-features .description {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: #777777;
+}
