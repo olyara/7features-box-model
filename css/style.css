@@ -101,7 +101,7 @@ body {
     color: white;
 }
 
-.block-features .cell *:hover {
+.block-features .cell:hover .icon, .block-features .cell:hover .caption, .block-features .cell:hover .description {
     color: white;
 }
 
